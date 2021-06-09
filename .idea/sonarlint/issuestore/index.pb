@@ -1,0 +1,19 @@
+
+A
+gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+b
+2app/src/main/java/com/app/classify/MainActivity.kt,0/9/093ab88b111c626b3b86dbf648d6bae7dc768ef9
+p
+@app/src/main/java/com/app/classify/list/adapter/AdListAdapter.kt,4/b/4b5a52698e8e8f6ddc30241fe2021add11ffc0c5
+a
+1app/src/main/java/com/app/classify/list/AdList.kt,d/0/d008ad911fc754c855d4dd54069cf36f6705a320
+e
+5app/src/main/java/com/app/classify/detail/AdDetail.kt,9/9/99d7ad0b7a9102c5d0466ad50c9a5bc4fac87f6d
+n
+>app/src/main/java/com/app/classify/detail/AdDetailViewModel.kt,f/d/fdec6b3339dca1578d122b08aa90971b3cb77631
+s
+Capp/src/main/java/com/app/classify/detail/DetailViewModelFactory.kt,b/7/b70135155b6fd09ce4c6db17a5d83eb83fc35856
+t
+Dapp/src/main/java/com/app/classify/list/viewmodel/AdListViewModel.kt,1/9/1925999da211f121a4953c6a777446fe6dd7bbc0
