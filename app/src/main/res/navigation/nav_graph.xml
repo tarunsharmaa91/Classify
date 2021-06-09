@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/adList">
 
     <fragment
         android:id="@+id/adList"
-        android:name="com.app.classify.list.AdList"
+        android:name="com.app.classify.ui.list.view.AdList"
         android:label="fragment_list"
-        tools:layout="@layout/ad_list_fragment">
+        >
         <action
             android:id="@+id/action_showDetail"
             app:destination="@id/adDetail" />
@@ -17,8 +16,16 @@
 
     <fragment
         android:id="@+id/adDetail"
-        android:name="com.app.classify.detail.AdDetail"
-        android:label="fragment_detail"
-        tools:layout="@layout/ad_detail_fragment">
+        android:name="com.app.classify.ui.detail.AdDetail"
+        android:label="fragment_detail">
+
+        <argument
+            android:name="selectedAd"
+            app:argType="com.app.classify.model.Results"
+            />
+        <action
+            android:id="@+id/action_adDetail_to_adList"
+            app:destination="@id/adList"
+            app:popUpTo="@id/adList" />
     </fragment>
 </navigation>
