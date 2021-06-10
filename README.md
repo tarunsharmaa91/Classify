@@ -18,4 +18,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Feedback
 
-If you have any feedback, please reach out to us at tarun.sharmaa91@gmail.com
+If you have any feedback, please reach out to me at tarun.sharmaa91@gmail.com
